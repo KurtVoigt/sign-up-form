@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f201f;
+    justify-content: center;
+}
+
+.PhotoContainer{
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 25%;
+
+
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    align-items: flex-start;
+    width: 45%;
+    height: 100%;
+    background-color: #dcdedc;  
+}
+.formContainer > *{
+    padding-left: 3ch;
+}
+
+.formContainer > header{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.customerInfoForm{
+    width: 100%;
+    box-shadow: 0px 20px 50px -20px #6A6B6D;  
+    background-color: #c8c8c8;
+}
+
+.infoContainer{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding: 20px;
+    
+}
+
+.infoContainer > *{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.noMatchText{
+    color: red;
+}
+.noMatchBorder{
+    border:1px solid red;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+input{
+    width: 70%;
+    height: 3.5ch;
+    border-radius: 6px;
+    margin: 4px 0px;
+    border: 1px #cbcbcb;
+}
+
+footer > button{
+    background-color: #cd6600;
+    height: 50px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+    margin-bottom: 1ch;
+}
+
+a{
+    color: #cd6600;
+}

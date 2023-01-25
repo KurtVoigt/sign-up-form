@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<div class="content">
+
+
+    <div class="PhotoContainer">
+
+    </div>
+
+    <div class="formContainer">
+        <header>
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus, commodi!</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p class="remote-text">You <em>know</em> you want to.</p>
+        </header>
+        <form action="#" class="customerInfoForm">
+            <div class="infoContainer" id="names">
+                <div id="firstName">
+                    <label for="firstNameField">
+                        FIRST NAME
+                    </label>
+                    <input type="text" id="firstNameField" name="firstName">
+                </div>
+                <div id="lastName">
+                    <label for="lastNameField">
+                        LAST NAME
+                    </label>
+                    <input type="text" id="lastNameField" name="lastName">
+                </div>
+            </div>
+
+            <div class="infoContainer" id="contact">
+                <div id="mail">
+                    <label for="email">EMAIL</label>
+
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div id="telephone">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="number" name="phone" id="phoneNumber">
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div id="password">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" name="password" id="pass">
+                    <div style="visibility: hidden;">!</div>
+                </div>
+
+                <div id="confirmPassword">
+                    <label for="passConfirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="passConfirm">
+                    <div id="passwordsNoMatch" class="noMatchText invisible">!Passwords do not match!</div>
+                </div>
+
+            </div>
+        </form>
+        <footer>
+            <button type="submit" id="submitButton">Create Account</button>
+            <div>Already have an Account? <a href="#">Log in</a></div>
+        </footer>
+    </div>
+
+
+
+</div>
